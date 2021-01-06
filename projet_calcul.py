@@ -131,9 +131,17 @@ def div():
     label.config(text= " / ")
 
 
+# Début du code
+
+
+# le label (ligne de calcul)
+
 
 label = tk.Label(root, text=" 0 ",font = ("helvetica", "30"))
 label.grid(row= 0 , column= 0, columnspan = 3)
+
+#les boutton
+
 
 b_1 = tk.Button(root, text="  1  ", padx = pad_x, pady = pad_y,font = ("helvetica", "20"), command = num1)
 b_1.grid(row=3, column=0)
