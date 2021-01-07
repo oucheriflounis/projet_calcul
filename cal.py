@@ -17,7 +17,7 @@ def clav_5(event):
 def clav_6(event):
     num6
 
-def clav_7(event):
+def clav_7(event): 
     num7()
 
 def clav_8(event):
