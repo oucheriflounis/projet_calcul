@@ -224,8 +224,26 @@ def clav_8(event):
 def clav_9(event):
     num9()
 
+def clav_0(event):
+    num0()
+
 def clav_egale(event):
     egale()
+
+def clav_point(event):
+    virgule()
+
+def clav_plus(event):
+    plus()
+
+def clav_moins(event):
+    moins()
+
+def clav_multi(event):
+    multi()
+
+def clav_div(event):
+    div()
 
 # root bind
 
@@ -239,5 +257,11 @@ root.bind("<KeyPress-7>", clav_7)
 root.bind("<KeyPress-8>", clav_8)
 root.bind("<KeyPress-9>", clav_9)
 root.bind("<KeyPress-0>", clav_0)
+root.bind("<return>", clav_egale)
+root.bind("<KeyPress-.>", clav_point)
+root.bind("<KeyPress-+>", clav_plus)
+root.bind("<KeyPress-->", clav_moins)
+root.bind("<KeyPress-*>", clav_multi)
+root.bind("<KeyPress-/>", clav_div)
 
 # fin
