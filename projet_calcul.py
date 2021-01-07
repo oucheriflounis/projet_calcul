@@ -204,25 +204,28 @@ def clav_2(event):
     num2()
 
 def clav_3(event):
-    num3
+    num3()
 
 def clav_4(event):
-    num4
+    num4()
 
 def clav_5(event):
-    num5
+    num5()
 
 def clav_6(event):
     num6
 
 def clav_7(event):
-    num7
+    num7()
 
 def clav_8(event):
-    num8
+    num8()
 
 def clav_9(event):
-    num9
+    num9()
+
+def clav_egale(event):
+    egale()
 
 # root bind
 
