@@ -195,8 +195,6 @@ b_div = tk.Button(root, text="   /   ", bg="red", padx = pad_x, pady = pad_y,fon
 b_div.grid(row=1, column=4)
 
 
-root.mainloop()
-
 def clav_1(event):
     num1()
 
@@ -265,3 +263,4 @@ root.bind("<KeyPress-*>", clav_multi)
 root.bind("<KeyPress-/>", clav_div)
 
 # fin
+root.mainloop()
